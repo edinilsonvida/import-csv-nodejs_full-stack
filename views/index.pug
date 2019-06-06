@@ -1,0 +1,24 @@
+extends layout
+block content
+  br
+  h2 Importando arquivo CSV usando NodeJS e MongoDB
+  br
+  p
+   a(href='javascript:void(0)' class='btn btn-primary' id='importdata') Importar CSV 
+   |    
+   a(href='javascript:void(0)' class='btn btn-primary' id='fetchdata') Carregar Dados
+  br  
+  p#message.alert.alert-success(style='display:none')
+  br
+  table.table.table-bordered
+    thead
+        tr
+            th #
+            th ID
+            th Nome
+            th Preço
+            th Categoria
+            th Fabricante
+    tbody#trdata
+        tr
+            td(colspan='3') Clique no botão <strong>Importar CSV</strong> para importar e salvar os dados no MongoDB. <br />Clique no botão <strong>Carregar Dados</strong> para exibir os dados do banco de dados.

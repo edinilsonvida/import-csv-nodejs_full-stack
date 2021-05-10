@@ -13,7 +13,7 @@
     "express-session": "^1.16.1",
     "fast-csv": "^2.5.0",
     "http-errors": "~1.6.3",
-    "mongoose": "^5.5.13",
+    "mongoose": "^5.7.5",
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11"
   }
